@@ -12,6 +12,9 @@
     "coverage": "nyc --reporter html tape test/*.test.js && opener coverage/index.html",
     "docs": "documentation build index.js -f md > api.md"
   },
+  "bin": {
+    "tile-scrape": "bin/tile-scrape.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mapbox/tile-scrape.git"
